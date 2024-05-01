@@ -4,12 +4,11 @@
   "license": "MIT",
   "main": "lib/nightmare.js",
   "scripts": {
-    "test": "make test",
-    "precommit": "make test"
+    "test": "make test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/segmentio/nightmare.git"
+    "url": "https://github.com/aaronctmr/nightmare.git"
   },
   "author": "Segment",
   "keywords": ["nightmare", "electron"],
@@ -18,7 +17,7 @@
     "debug": "^2.2.0",
     "deep-defaults": "^1.0.3",
     "defaults": "^1.0.2",
-    "electron": "^2.0.18",
+    "@electron/get": "^2.0.3",
     "enqueue": "^1.0.2",
     "function-source": "^0.1.0",
     "jsesc": "^0.5.0",
